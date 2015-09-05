@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/PXButton.svg?style=flat)](http://cocoapods.org/pods/PXButton)
 [![Platform](https://img.shields.io/cocoapods/p/PXButton.svg?style=flat)](http://cocoapods.org/pods/PXButton)
 
-![PXButton example project screenshot](pxbutton.png =x400)
+![PXButton example project screenshot](pxbutton.png)
 
 ## Usage
 
