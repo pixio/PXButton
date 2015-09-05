@@ -1,0 +1,14 @@
+PODS:
+  - PXButton (0.1.1)
+
+DEPENDENCIES:
+  - PXButton (from `../`)
+
+EXTERNAL SOURCES:
+  PXButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PXButton: 982bcf8dfb32b4900ac1068d43828b32748f96bf
+
+COCOAPODS: 0.38.2

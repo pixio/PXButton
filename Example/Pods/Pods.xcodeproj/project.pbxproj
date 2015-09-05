@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E504AAFA31AD2C63FCE028C3AB8EE76 /* PXButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DCBE480A630DB856DB152D36B29ACE8 /* PXButton.h */; };
+		1CB2A97C7F3CB24173B30F81ECCCBC6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE033FA44AF15414EADA68C96409325A /* UIKit.framework */; };
+		23E80202757E7FE86D1308CF7B17C114 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD430C37E0FDFDEAA46ED4B96C644437 /* Foundation.framework */; };
+		3F98E9BE9CF3DED56C910C63A86F18F3 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 737D8232E97CB544CFB7AAC90E8C2E44 /* Pods-Tests-dummy.m */; };
+		47247D300D769F9458A59A424BF81C89 /* PXButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A3C0C824B29260E06D832A2DAC60E3 /* PXButton-dummy.m */; };
+		848D62CE9F15C7FADC2854A9CB66314B /* PXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A781EA8E01ABE46131FC3F929B0028 /* PXButton.m */; };
+		ABD8D3D5F2D7E6F7314BFF73687C3A1D /* Pods-PXButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3167624E11DF4BB82054EA30A269386A /* Pods-PXButton-dummy.m */; };
+		BD448D68A1FFB64D81ADCDEB5F72D9F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD430C37E0FDFDEAA46ED4B96C644437 /* Foundation.framework */; };
+		EDAE5F970712D2796D302CBA87957CBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD430C37E0FDFDEAA46ED4B96C644437 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C689DDB3F941F595A5FC60D408FF085 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A213A1C9F221824DB23C0FBD027FD290;
+			remoteInfo = PXButton;
+		};
+		7567DABF5F75CDF755A560E908038E54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A213A1C9F221824DB23C0FBD027FD290;
+			remoteInfo = PXButton;
+		};
+		8F3AFA515A9179405B97BFA2009B1A31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31B0AFFFC72C8FBFC9A855E709850077;
+			remoteInfo = "PXButton-PXButton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A90F91A8493B8A44C41D3F94AA5AB4D /* Pods-PXButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXButton.release.xcconfig"; sourceTree = "<group>"; };
+		1F921C60CE3C4DA31B5BD5F781984467 /* Pods-PXButton-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXButton-acknowledgements.markdown"; sourceTree = "<group>"; };
+		209B63FF2707ABCA3803F94463382C57 /* libPXButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPXButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2251B2C6E9E169587D406BD1D79708ED /* libPods-PXButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22633461AAC2F6B8D022E9A03EAB8171 /* PXButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		254562AED3727035E6B4DD1A96B195FE /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B33BCBD5963AFA0337CB76301243617 /* PXButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXButton-prefix.pch"; sourceTree = "<group>"; };
+		3167624E11DF4BB82054EA30A269386A /* Pods-PXButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXButton-dummy.m"; sourceTree = "<group>"; };
+		4DCBE480A630DB856DB152D36B29ACE8 /* PXButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXButton.h; sourceTree = "<group>"; };
+		5384B037B31DA860A93EC4303E746DCE /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55A3C0C824B29260E06D832A2DAC60E3 /* PXButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXButton-dummy.m"; sourceTree = "<group>"; };
+		55D3B8D25AD6327549FF770539C0F0CF /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		57B8651DECEEA2F3D06C31AF2FFC6EA4 /* PXButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXButton.xcconfig; sourceTree = "<group>"; };
+		5B40D0099F506E1C414D147E991FB6FA /* PXButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PXButton-Private.xcconfig"; sourceTree = "<group>"; };
+		5E6165B33EECE35846AC5F2A39464C54 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		65A781EA8E01ABE46131FC3F929B0028 /* PXButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXButton.m; sourceTree = "<group>"; };
+		6B18ED08C4C984C4423B6E81F8932E5D /* Pods-PXButton-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXButton-acknowledgements.plist"; sourceTree = "<group>"; };
+		737D8232E97CB544CFB7AAC90E8C2E44 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		75BA1AB9D8CF7A4D83FC40CBCB05281B /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2D452C372A63C224499807D9834EB7E /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		A39FC69084EF94EE1FDD0539844E9F28 /* Pods-PXButton-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXButton-resources.sh"; sourceTree = "<group>"; };
+		B2522E0EACAF6BE03F6E4A209111B7E1 /* Pods-PXButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXButton.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CE033FA44AF15414EADA68C96409325A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DD430C37E0FDFDEAA46ED4B96C644437 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		365AC7C7B35EDB12DB68980302999F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD448D68A1FFB64D81ADCDEB5F72D9F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8834F4024CFD8CE34BDA0D22EB7BA1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAE5F970712D2796D302CBA87957CBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12B169ED1F5EAE9D80E1FB55E35DAA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE0BFCCA3CCD9424EB612F63455A801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E80202757E7FE86D1308CF7B17C114 /* Foundation.framework in Frameworks */,
+				1CB2A97C7F3CB24173B30F81ECCCBC6B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B233CD547FACC3597E7C8279F6BB59A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4DCBE480A630DB856DB152D36B29ACE8 /* PXButton.h */,
+				65A781EA8E01ABE46131FC3F929B0028 /* PXButton.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3D0AA1FFDCD139558C253EB3CD06483A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF3560378459EC0009705B9AA6720C2F /* Pods-PXButton */,
+				9FA34D03704125746829B7BCCC6FA914 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0FB9306D21AF23A056944AE037CBFFF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CE57D9D1AA819EBD90BE6DD1D12AB39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57B8651DECEEA2F3D06C31AF2FFC6EA4 /* PXButton.xcconfig */,
+				5B40D0099F506E1C414D147E991FB6FA /* PXButton-Private.xcconfig */,
+				55A3C0C824B29260E06D832A2DAC60E3 /* PXButton-dummy.m */,
+				2B33BCBD5963AFA0337CB76301243617 /* PXButton-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PXButton";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				CBAA75DD7E310A081E17A4C4D3324C35 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				3D0AA1FFDCD139558C253EB3CD06483A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9FA34D03704125746829B7BCCC6FA914 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5384B037B31DA860A93EC4303E746DCE /* Pods-Tests-acknowledgements.markdown */,
+				55D3B8D25AD6327549FF770539C0F0CF /* Pods-Tests-acknowledgements.plist */,
+				737D8232E97CB544CFB7AAC90E8C2E44 /* Pods-Tests-dummy.m */,
+				A2D452C372A63C224499807D9834EB7E /* Pods-Tests-resources.sh */,
+				75BA1AB9D8CF7A4D83FC40CBCB05281B /* Pods-Tests.debug.xcconfig */,
+				5E6165B33EECE35846AC5F2A39464C54 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		B9C75F2C764AE425D69AA885AE5FAFCE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1B233CD547FACC3597E7C8279F6BB59A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BF3560378459EC0009705B9AA6720C2F /* Pods-PXButton */ = {
+			isa = PBXGroup;
+			children = (
+				1F921C60CE3C4DA31B5BD5F781984467 /* Pods-PXButton-acknowledgements.markdown */,
+				6B18ED08C4C984C4423B6E81F8932E5D /* Pods-PXButton-acknowledgements.plist */,
+				3167624E11DF4BB82054EA30A269386A /* Pods-PXButton-dummy.m */,
+				A39FC69084EF94EE1FDD0539844E9F28 /* Pods-PXButton-resources.sh */,
+				B2522E0EACAF6BE03F6E4A209111B7E1 /* Pods-PXButton.debug.xcconfig */,
+				0A90F91A8493B8A44C41D3F94AA5AB4D /* Pods-PXButton.release.xcconfig */,
+			);
+			name = "Pods-PXButton";
+			path = "Target Support Files/Pods-PXButton";
+			sourceTree = "<group>";
+		};
+		C78041C0D790C197FBF33DA85437AFA9 /* PXButton */ = {
+			isa = PBXGroup;
+			children = (
+				B9C75F2C764AE425D69AA885AE5FAFCE /* Pod */,
+				4CE57D9D1AA819EBD90BE6DD1D12AB39 /* Support Files */,
+			);
+			name = PXButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CBAA75DD7E310A081E17A4C4D3324C35 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C78041C0D790C197FBF33DA85437AFA9 /* PXButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22633461AAC2F6B8D022E9A03EAB8171 /* PXButton.bundle */,
+				209B63FF2707ABCA3803F94463382C57 /* libPXButton.a */,
+				2251B2C6E9E169587D406BD1D79708ED /* libPods-PXButton.a */,
+				254562AED3727035E6B4DD1A96B195FE /* libPods-Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FB9306D21AF23A056944AE037CBFFF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD430C37E0FDFDEAA46ED4B96C644437 /* Foundation.framework */,
+				CE033FA44AF15414EADA68C96409325A /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F4C4872998EA891F46FB3201E3FC17FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E504AAFA31AD2C63FCE028C3AB8EE76 /* PXButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		31B0AFFFC72C8FBFC9A855E709850077 /* PXButton-PXButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17AC4F8C8E3C3A6E15988EF705E170A /* Build configuration list for PBXNativeTarget "PXButton-PXButton" */;
+			buildPhases = (
+				29F6D5CED4AC53237551A50F1F4CA4D3 /* Sources */,
+				C12B169ED1F5EAE9D80E1FB55E35DAA7 /* Frameworks */,
+				9409C6321AF8EC9E4A59571F0E7C3EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PXButton-PXButton";
+			productName = "PXButton-PXButton";
+			productReference = 22633461AAC2F6B8D022E9A03EAB8171 /* PXButton.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		767EEB63E25B715950007130F4959229 /* Pods-PXButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C90DE18AD62E6C7A68F9C25C7F5214 /* Build configuration list for PBXNativeTarget "Pods-PXButton" */;
+			buildPhases = (
+				AA06EDEFB079ABCDD4CED163B6E73FDC /* Sources */,
+				8834F4024CFD8CE34BDA0D22EB7BA1E2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CCB24C8B5BEE555070BC8AA9422F77 /* PBXTargetDependency */,
+			);
+			name = "Pods-PXButton";
+			productName = "Pods-PXButton";
+			productReference = 2251B2C6E9E169587D406BD1D79708ED /* libPods-PXButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		810E7608BAB84705C548E83B9C0A1561 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB7F5246879B7E25C666CE01DC4FC31 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				936159221D65CB208471FDFDA1700E07 /* Sources */,
+				365AC7C7B35EDB12DB68980302999F0B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				279496720487747EFDD031D48A08D546 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 254562AED3727035E6B4DD1A96B195FE /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A213A1C9F221824DB23C0FBD027FD290 /* PXButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E49E9FA7FADCAEB7AB28092D60C0C3 /* Build configuration list for PBXNativeTarget "PXButton" */;
+			buildPhases = (
+				E36A7EBC1FF48C31E6BD9117EB7E18C1 /* Sources */,
+				DEE0BFCCA3CCD9424EB612F63455A801 /* Frameworks */,
+				F4C4872998EA891F46FB3201E3FC17FD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABE8E88392203C9972F291BF1EB65AA /* PBXTargetDependency */,
+			);
+			name = PXButton;
+			productName = PXButton;
+			productReference = 209B63FF2707ABCA3803F94463382C57 /* libPXButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A213A1C9F221824DB23C0FBD027FD290 /* PXButton */,
+				31B0AFFFC72C8FBFC9A855E709850077 /* PXButton-PXButton */,
+				767EEB63E25B715950007130F4959229 /* Pods-PXButton */,
+				810E7608BAB84705C548E83B9C0A1561 /* Pods-Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9409C6321AF8EC9E4A59571F0E7C3EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29F6D5CED4AC53237551A50F1F4CA4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936159221D65CB208471FDFDA1700E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F98E9BE9CF3DED56C910C63A86F18F3 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA06EDEFB079ABCDD4CED163B6E73FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD8D3D5F2D7E6F7314BFF73687C3A1D /* Pods-PXButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36A7EBC1FF48C31E6BD9117EB7E18C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47247D300D769F9458A59A424BF81C89 /* PXButton-dummy.m in Sources */,
+				848D62CE9F15C7FADC2854A9CB66314B /* PXButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CCB24C8B5BEE555070BC8AA9422F77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXButton;
+			target = A213A1C9F221824DB23C0FBD027FD290 /* PXButton */;
+			targetProxy = 4C689DDB3F941F595A5FC60D408FF085 /* PBXContainerItemProxy */;
+		};
+		279496720487747EFDD031D48A08D546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXButton;
+			target = A213A1C9F221824DB23C0FBD027FD290 /* PXButton */;
+			targetProxy = 7567DABF5F75CDF755A560E908038E54 /* PBXContainerItemProxy */;
+		};
+		CABE8E88392203C9972F291BF1EB65AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PXButton-PXButton";
+			target = 31B0AFFFC72C8FBFC9A855E709850077 /* PXButton-PXButton */;
+			targetProxy = 8F3AFA515A9179405B97BFA2009B1A31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3E18BC6B380A757831161681C2191AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B40D0099F506E1C414D147E991FB6FA /* PXButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		67AA02C2CD13F5E78383724FA20134BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E6165B33EECE35846AC5F2A39464C54 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6C50A3152EC101FFCE0618F64C7CB238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B40D0099F506E1C414D147E991FB6FA /* PXButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXButton/PXButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B0B02C258ABB1BEEF1EEB6C439323291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B40D0099F506E1C414D147E991FB6FA /* PXButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B0C9CFF539FE8B04947939971BC6FA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2522E0EACAF6BE03F6E4A209111B7E1 /* Pods-PXButton.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C653FECA06F9C0717635C6FE0BB1266A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A90F91A8493B8A44C41D3F94AA5AB4D /* Pods-PXButton.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E75252BFE7935B06918E9AC3F5642328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75BA1AB9D8CF7A4D83FC40CBCB05281B /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F3A0501AC48C1E7E6E5E849B1F42A967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B40D0099F506E1C414D147E991FB6FA /* PXButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXButton/PXButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01E49E9FA7FADCAEB7AB28092D60C0C3 /* Build configuration list for PBXNativeTarget "PXButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A0501AC48C1E7E6E5E849B1F42A967 /* Debug */,
+				6C50A3152EC101FFCE0618F64C7CB238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EB7F5246879B7E25C666CE01DC4FC31 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75252BFE7935B06918E9AC3F5642328 /* Debug */,
+				67AA02C2CD13F5E78383724FA20134BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C90DE18AD62E6C7A68F9C25C7F5214 /* Build configuration list for PBXNativeTarget "Pods-PXButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C9CFF539FE8B04947939971BC6FA3D /* Debug */,
+				C653FECA06F9C0717635C6FE0BB1266A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D17AC4F8C8E3C3A6E15988EF705E170A /* Build configuration list for PBXNativeTarget "PXButton-PXButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E18BC6B380A757831161681C2191AD6 /* Debug */,
+				B0B02C258ABB1BEEF1EEB6C439323291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
