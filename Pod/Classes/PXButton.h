@@ -78,11 +78,7 @@ typedef NS_ENUM(NSInteger, PXButtonIconPosition)
 + (instancetype) button;
 
 /**
- *  The font to use for this instance. 
- *
- *  This font is inherited at instantiation from the class font.  Changing this font property
- *  changes the font for this button only.  Setting this property to nil, falls back on the 
- *  PXButton class font.
+ *  The font for the title in this button.
  */
 @property (nonatomic) UIFont* font UI_APPEARANCE_SELECTOR;
 

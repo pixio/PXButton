@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "PXButton"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "A button with a configurably aligned icon"
   s.description      = <<-DESC
                        A button with an optional image you can put in the left, the right, and right in the middle.
