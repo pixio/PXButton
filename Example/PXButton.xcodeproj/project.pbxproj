@@ -10,6 +10,9 @@
 		0362B794C04227FFDE3022F8 /* libPods-PXButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B78396FA307EEEC9E5F0E1 /* libPods-PXButton.a */; };
 		1A2B786018CE734BA6EDAD2E /* libPods-PXButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0508E4D805B698F21073656A /* libPods-PXButton.a */; };
 		2CBAE6831B0D37C300C0C55C /* PXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBAE6821B0D37C300C0C55C /* PXView.m */; };
+		551891B21C769F5F00C54CA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551891AF1C769F5F00C54CA2 /* AppDelegate.swift */; };
+		551891B31C769F5F00C54CA2 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551891B01C769F5F00C54CA2 /* View.swift */; };
+		551891B41C769F5F00C54CA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551891B11C769F5F00C54CA2 /* ViewController.swift */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -43,6 +46,10 @@
 		2C7E9A7754123187C4DD72CB /* Pods-PXButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PXButton/Pods-PXButton.debug.xcconfig"; sourceTree = "<group>"; };
 		2CBAE6811B0D37C300C0C55C /* PXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXView.h; sourceTree = "<group>"; };
 		2CBAE6821B0D37C300C0C55C /* PXView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXView.m; sourceTree = "<group>"; };
+		551891AE1C769F5F00C54CA2 /* PXButton-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PXButton-Bridging-Header.h"; sourceTree = "<group>"; };
+		551891AF1C769F5F00C54CA2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		551891B01C769F5F00C54CA2 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		551891B11C769F5F00C54CA2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B27252182FB76A05259D56D /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E0F73FF836502002B60E20C /* Pods-PXButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-PXButton/Pods-PXButton.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PXButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PXButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +104,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		551891AD1C769E9F00C54CA2 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				551891AF1C769F5F00C54CA2 /* AppDelegate.swift */,
+				551891B01C769F5F00C54CA2 /* View.swift */,
+				551891B11C769F5F00C54CA2 /* ViewController.swift */,
+				551891AE1C769F5F00C54CA2 /* PXButton-Bridging-Header.h */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +153,7 @@
 		6003F593195388D20070C39A /* PXButton */ = {
 			isa = PBXGroup;
 			children = (
+				551891AD1C769E9F00C54CA2 /* Swift */,
 				6003F59C195388D20070C39A /* PXAppDelegate.h */,
 				6003F59D195388D20070C39A /* PXAppDelegate.m */,
 				6003F5A5195388D20070C39A /* PXViewController.h */,
@@ -210,6 +229,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				66BD960C20F0B00DC772BC48 /* Copy Pods Resources */,
+				4461BDB9C1C678C77A56538B /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,6 +249,7 @@
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
 				D31FABBE38F2480714AF7C35 /* Copy Pods Resources */,
+				C49E6CAC22180A15D25BDB5F /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,7 +268,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = PX;
-				LastUpgradeCheck = 0510;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Daniel Blakemore";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -295,6 +317,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4461BDB9C1C678C77A56538B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PXButton/Pods-PXButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		66BD960C20F0B00DC772BC48 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,6 +360,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C49E6CAC22180A15D25BDB5F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D31FABBE38F2480714AF7C35 /* Copy Pods Resources */ = {
@@ -364,7 +416,10 @@
 			files = (
 				6003F59E195388D20070C39A /* PXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* PXViewController.m in Sources */,
+				551891B31C769F5F00C54CA2 /* View.swift in Sources */,
 				2CBAE6831B0D37C300C0C55C /* PXView.m in Sources */,
+				551891B41C769F5F00C54CA2 /* ViewController.swift in Sources */,
+				551891B21C769F5F00C54CA2 /* AppDelegate.swift in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +480,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -439,7 +495,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -472,7 +528,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -485,10 +541,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PXButton/PXButton-Prefix.pch";
 				INFOPLIST_FILE = "PXButton/PXButton-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = PXButton;
+				SWIFT_OBJC_BRIDGING_HEADER = "PXButton/PXButton-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -499,10 +560,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PXButton/PXButton-Prefix.pch";
 				INFOPLIST_FILE = "PXButton/PXButton-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = PXButton;
+				SWIFT_OBJC_BRIDGING_HEADER = "PXButton/PXButton-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -524,6 +589,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -543,6 +609,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

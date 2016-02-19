@@ -1,14 +1,14 @@
 PODS:
-  - PXButton (0.1.1)
+  - PXButton (0.1.3)
 
 DEPENDENCIES:
   - PXButton (from `../`)
 
 EXTERNAL SOURCES:
   PXButton:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  PXButton: 982bcf8dfb32b4900ac1068d43828b32748f96bf
+  PXButton: 0365069630388aa2fc99a574d4febb8d87efa04f
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

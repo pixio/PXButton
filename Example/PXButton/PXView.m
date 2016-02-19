@@ -43,12 +43,12 @@
         [_finnButton setUsesSubtleGradient:TRUE];
         [_finnButton setImage:[UIImage imageNamed:@"finn"] atPosition:PXButtonIconPositionRight forState:UIControlStateNormal tint:false];
         [_finnButton setTitle:@"Finn the Human" forState:UIControlStateNormal];
-        [_finnButton setIconSize:40];
+        [_finnButton setIconSize:40.0f];
         [_finnButton setCornerRadius:4.0f];
         [_finnButton setTranslatesAutoresizingMaskIntoConstraints:FALSE];
         [_centerView addSubview:_finnButton];
         [[_finnButton titleLabel] setAdjustsFontSizeToFitWidth:TRUE];
-        [[_finnButton titleLabel] setFont:[UIFont fontWithName:@"futura" size:18]];
+        [[_finnButton titleLabel] setFont:[UIFont fontWithName:@"futura" size:18.0f]];
         
         [self setNeedsUpdateConstraints];
     }
