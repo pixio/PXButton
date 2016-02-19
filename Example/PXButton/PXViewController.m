@@ -15,6 +15,11 @@
 
 @implementation PXViewController
 
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
 - (void)loadView
 {
     [self setView:[[PXView alloc] init]];

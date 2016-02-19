@@ -12,10 +12,7 @@
 @implementation PXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
-    [application setStatusBarStyle:UIStatusBarStyleLightContent];
-    
+{    
     // Setup the window
     [self setWindow:[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]];
     [[self window] makeKeyAndVisible];
