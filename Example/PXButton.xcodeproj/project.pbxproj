@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0362B794C04227FFDE3022F8 /* libPods-PXButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B78396FA307EEEC9E5F0E1 /* libPods-PXButton.a */; };
-		1A2B786018CE734BA6EDAD2E /* libPods-PXButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0508E4D805B698F21073656A /* libPods-PXButton.a */; };
+		09DD66E6CD175F70F136C209 /* libPods-PXButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D2E33C492ECE53A729B582 /* libPods-PXButton.a */; };
+		2BBDD133C450E01D56AD30E5 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C69495A08C178396BCAD8C9C /* libPods-Tests.a */; };
 		2CBAE6831B0D37C300C0C55C /* PXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBAE6821B0D37C300C0C55C /* PXView.m */; };
-		551891B21C769F5F00C54CA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551891AF1C769F5F00C54CA2 /* AppDelegate.swift */; };
-		551891B31C769F5F00C54CA2 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551891B01C769F5F00C54CA2 /* View.swift */; };
-		551891B41C769F5F00C54CA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551891B11C769F5F00C54CA2 /* ViewController.swift */; };
+		4B11CB8F1E4E3B12001F7521 /* PXButton_SwiftExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B11CB8E1E4E3B12001F7521 /* PXButton_SwiftExampleTests.swift */; };
+		4B11CB971E4E3B49001F7521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551891AF1C769F5F00C54CA2 /* AppDelegate.swift */; };
+		4B11CB991E4E3B4D001F7521 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551891B01C769F5F00C54CA2 /* View.swift */; };
+		4B11CB9A1E4E3B50001F7521 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551891B11C769F5F00C54CA2 /* ViewController.swift */; };
+		4B11CB9B1E4E3B5A001F7521 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		4B1BB9CB1E4E427D006BA138 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B1BB9CA1E4E427D006BA138 /* Default-568h@2x.png */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -26,10 +29,18 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		CA819DA181B08ED3E6DAE6D1 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B27252182FB76A05259D56D /* libPods-Tests.a */; };
+		6FEE8BADE1BFF8E3D3E499FD /* libPods-PXButton-SwiftExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C509FA8E02877DC46D4D89 /* libPods-PXButton-SwiftExample.a */; };
+		FF2328FECE6B5F1DDD8EC4A2 /* libPods-PXButton-SwiftExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AFE2205019BBC672D192BD /* libPods-PXButton-SwiftExampleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4B11CB8B1E4E3B12001F7521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B11CB761E4E3B12001F7521;
+			remoteInfo = "PXButton-SwiftExample";
+		};
 		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
@@ -40,18 +51,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0508E4D805B698F21073656A /* libPods-PXButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F2FE75BE80D076E4692C82B /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0743F58147392B6D73356172 /* Pods-PXButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PXButton/Pods-PXButton.debug.xcconfig"; sourceTree = "<group>"; };
 		115C034543C083DE0F9E8665 /* PXButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PXButton.podspec; path = ../PXButton.podspec; sourceTree = "<group>"; };
-		2C7E9A7754123187C4DD72CB /* Pods-PXButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PXButton/Pods-PXButton.debug.xcconfig"; sourceTree = "<group>"; };
+		1E0DC60B95E14B614CE5016B /* Pods-PXButton-SwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXButton-SwiftExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-PXButton-SwiftExample/Pods-PXButton-SwiftExample.release.xcconfig"; sourceTree = "<group>"; };
+		24AFE2205019BBC672D192BD /* libPods-PXButton-SwiftExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXButton-SwiftExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBAE6811B0D37C300C0C55C /* PXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXView.h; sourceTree = "<group>"; };
 		2CBAE6821B0D37C300C0C55C /* PXView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXView.m; sourceTree = "<group>"; };
+		3315A680F7457DECF18C8C16 /* Pods-PXButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-PXButton/Pods-PXButton.release.xcconfig"; sourceTree = "<group>"; };
+		4B11CB771E4E3B12001F7521 /* PXButton-SwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PXButton-SwiftExample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B11CB851E4E3B12001F7521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B11CB8A1E4E3B12001F7521 /* PXButton-SwiftExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PXButton-SwiftExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B11CB8E1E4E3B12001F7521 /* PXButton_SwiftExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PXButton_SwiftExampleTests.swift; sourceTree = "<group>"; };
+		4B11CB901E4E3B12001F7521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B1BB9CA1E4E427D006BA138 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		551891AE1C769F5F00C54CA2 /* PXButton-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PXButton-Bridging-Header.h"; sourceTree = "<group>"; };
 		551891AF1C769F5F00C54CA2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		551891B01C769F5F00C54CA2 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		551891B11C769F5F00C54CA2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5B27252182FB76A05259D56D /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E0F73FF836502002B60E20C /* Pods-PXButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-PXButton/Pods-PXButton.release.xcconfig"; sourceTree = "<group>"; };
+		56C509FA8E02877DC46D4D89 /* libPods-PXButton-SwiftExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXButton-SwiftExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* PXButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PXButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -71,13 +88,34 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		651F84507DC28E432EBF4BA2 /* Pods-PXButton-SwiftExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXButton-SwiftExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PXButton-SwiftExampleTests/Pods-PXButton-SwiftExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		765C3585484C6636D4969939 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7FB072D1238C3EBD34708161 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		99B78396FA307EEEC9E5F0E1 /* libPods-PXButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C40DAEAC503B92C9FD2ACC0D /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8719B35E19B913449E7A5382 /* Pods-PXButton-SwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXButton-SwiftExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PXButton-SwiftExample/Pods-PXButton-SwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
+		946D5551A50848732B4EA993 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4C81764E9ED6EB9DFF9216E /* Pods-PXButton-SwiftExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXButton-SwiftExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PXButton-SwiftExampleTests/Pods-PXButton-SwiftExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		C69495A08C178396BCAD8C9C /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D2E33C492ECE53A729B582 /* libPods-PXButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C1A7687FEA6CF4F830FFBC /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4B11CB741E4E3B12001F7521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEE8BADE1BFF8E3D3E499FD /* libPods-PXButton-SwiftExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B11CB871E4E3B12001F7521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2328FECE6B5F1DDD8EC4A2 /* libPods-PXButton-SwiftExampleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,8 +123,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				0362B794C04227FFDE3022F8 /* libPods-PXButton.a in Frameworks */,
-				1A2B786018CE734BA6EDAD2E /* libPods-PXButton.a in Frameworks */,
+				09DD66E6CD175F70F136C209 /* libPods-PXButton.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,20 +134,52 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				CA819DA181B08ED3E6DAE6D1 /* libPods-Tests.a in Frameworks */,
+				2BBDD133C450E01D56AD30E5 /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		551891AD1C769E9F00C54CA2 /* Swift */ = {
+		224DE4BAA3A5799A7C991A7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0743F58147392B6D73356172 /* Pods-PXButton.debug.xcconfig */,
+				3315A680F7457DECF18C8C16 /* Pods-PXButton.release.xcconfig */,
+				946D5551A50848732B4EA993 /* Pods-Tests.debug.xcconfig */,
+				F8C1A7687FEA6CF4F830FFBC /* Pods-Tests.release.xcconfig */,
+				8719B35E19B913449E7A5382 /* Pods-PXButton-SwiftExample.debug.xcconfig */,
+				1E0DC60B95E14B614CE5016B /* Pods-PXButton-SwiftExample.release.xcconfig */,
+				651F84507DC28E432EBF4BA2 /* Pods-PXButton-SwiftExampleTests.debug.xcconfig */,
+				B4C81764E9ED6EB9DFF9216E /* Pods-PXButton-SwiftExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B11CB781E4E3B12001F7521 /* PXButton-SwiftExample */ = {
 			isa = PBXGroup;
 			children = (
 				551891AF1C769F5F00C54CA2 /* AppDelegate.swift */,
 				551891B01C769F5F00C54CA2 /* View.swift */,
 				551891B11C769F5F00C54CA2 /* ViewController.swift */,
 				551891AE1C769F5F00C54CA2 /* PXButton-Bridging-Header.h */,
+				4B11CB851E4E3B12001F7521 /* Info.plist */,
+			);
+			path = "PXButton-SwiftExample";
+			sourceTree = "<group>";
+		};
+		4B11CB8D1E4E3B12001F7521 /* PXButton-SwiftExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B11CB8E1E4E3B12001F7521 /* PXButton_SwiftExampleTests.swift */,
+				4B11CB901E4E3B12001F7521 /* Info.plist */,
+			);
+			path = "PXButton-SwiftExampleTests";
+			sourceTree = "<group>";
+		};
+		551891AD1C769E9F00C54CA2 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Swift;
 			sourceTree = "<group>";
@@ -118,12 +187,15 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				4B1BB9CA1E4E427D006BA138 /* Default-568h@2x.png */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* PXButton */,
 				6003F5B5195388D20070C39A /* Tests */,
+				4B11CB781E4E3B12001F7521 /* PXButton-SwiftExample */,
+				4B11CB8D1E4E3B12001F7521 /* PXButton-SwiftExampleTests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				8810A40DD9849E9809F6AFA6 /* Pods */,
+				224DE4BAA3A5799A7C991A7D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +204,8 @@
 			children = (
 				6003F58A195388D20070C39A /* PXButton.app */,
 				6003F5AE195388D20070C39A /* Tests.xctest */,
+				4B11CB771E4E3B12001F7521 /* PXButton-SwiftExample.app */,
+				4B11CB8A1E4E3B12001F7521 /* PXButton-SwiftExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,9 +217,10 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				99B78396FA307EEEC9E5F0E1 /* libPods-PXButton.a */,
-				5B27252182FB76A05259D56D /* libPods-Tests.a */,
-				0508E4D805B698F21073656A /* libPods-PXButton.a */,
+				D4D2E33C492ECE53A729B582 /* libPods-PXButton.a */,
+				C69495A08C178396BCAD8C9C /* libPods-Tests.a */,
+				56C509FA8E02877DC46D4D89 /* libPods-PXButton-SwiftExample.a */,
+				24AFE2205019BBC672D192BD /* libPods-PXButton-SwiftExampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -206,30 +281,60 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		8810A40DD9849E9809F6AFA6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2C7E9A7754123187C4DD72CB /* Pods-PXButton.debug.xcconfig */,
-				5E0F73FF836502002B60E20C /* Pods-PXButton.release.xcconfig */,
-				C40DAEAC503B92C9FD2ACC0D /* Pods-Tests.debug.xcconfig */,
-				0F2FE75BE80D076E4692C82B /* Pods-Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4B11CB761E4E3B12001F7521 /* PXButton-SwiftExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B11CB951E4E3B12001F7521 /* Build configuration list for PBXNativeTarget "PXButton-SwiftExample" */;
+			buildPhases = (
+				34E8E2C971142FCD0B5C7D04 /* [CP] Check Pods Manifest.lock */,
+				4B11CB731E4E3B12001F7521 /* Sources */,
+				4B11CB741E4E3B12001F7521 /* Frameworks */,
+				4B11CB751E4E3B12001F7521 /* Resources */,
+				E2B6B8E9ADBD91662F02CDE8 /* [CP] Embed Pods Frameworks */,
+				C3CDA13B020DF1036E466773 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PXButton-SwiftExample";
+			productName = "PXButton-SwiftExample";
+			productReference = 4B11CB771E4E3B12001F7521 /* PXButton-SwiftExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B11CB891E4E3B12001F7521 /* PXButton-SwiftExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B11CB961E4E3B12001F7521 /* Build configuration list for PBXNativeTarget "PXButton-SwiftExampleTests" */;
+			buildPhases = (
+				814A9CCCCA34447A118E281B /* [CP] Check Pods Manifest.lock */,
+				4B11CB861E4E3B12001F7521 /* Sources */,
+				4B11CB871E4E3B12001F7521 /* Frameworks */,
+				4B11CB881E4E3B12001F7521 /* Resources */,
+				3FB3FB11E67FD48391E9C541 /* [CP] Embed Pods Frameworks */,
+				94650239F2FDBDDB8AB025D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B11CB8C1E4E3B12001F7521 /* PBXTargetDependency */,
+			);
+			name = "PXButton-SwiftExampleTests";
+			productName = "PXButton-SwiftExampleTests";
+			productReference = 4B11CB8A1E4E3B12001F7521 /* PXButton-SwiftExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		6003F589195388D20070C39A /* PXButton */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "PXButton" */;
 			buildPhases = (
-				B982B94DC9FDC047886A9B4E /* Check Pods Manifest.lock */,
+				DFB44124C52CAD3BCD01081F /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				66BD960C20F0B00DC772BC48 /* Copy Pods Resources */,
-				4461BDB9C1C678C77A56538B /* Embed Pods Frameworks */,
+				2E7E931E765E194986BF122A /* [CP] Embed Pods Frameworks */,
+				2CBE3F322B597F66AC686FD9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,12 +349,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
-				EDD2E1784A8D2676FABDD55B /* Check Pods Manifest.lock */,
+				DD6129498F25E4B38DCC7320 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				D31FABBE38F2480714AF7C35 /* Copy Pods Resources */,
-				C49E6CAC22180A15D25BDB5F /* Embed Pods Frameworks */,
+				65D8251B651081B63DFA6C2C /* [CP] Embed Pods Frameworks */,
+				7DA499ED10663AD7BF03CB45 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,10 +373,22 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = PX;
-				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Daniel Blakemore";
 				TargetAttributes = {
+					4B11CB761E4E3B12001F7521 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					4B11CB891E4E3B12001F7521 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B11CB761E4E3B12001F7521;
+					};
+					6003F589195388D20070C39A = {
+						LastSwiftMigration = 0820;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -292,11 +409,29 @@
 			targets = (
 				6003F589195388D20070C39A /* PXButton */,
 				6003F5AD195388D20070C39A /* Tests */,
+				4B11CB761E4E3B12001F7521 /* PXButton-SwiftExample */,
+				4B11CB891E4E3B12001F7521 /* PXButton-SwiftExampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4B11CB751E4E3B12001F7521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B11CB9B1E4E3B5A001F7521 /* Images.xcassets in Resources */,
+				4B1BB9CB1E4E427D006BA138 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B11CB881E4E3B12001F7521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -317,29 +452,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4461BDB9C1C678C77A56538B /* Embed Pods Frameworks */ = {
+		2CBE3F322B597F66AC686FD9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PXButton/Pods-PXButton-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		66BD960C20F0B00DC772BC48 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,29 +467,59 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PXButton/Pods-PXButton-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B982B94DC9FDC047886A9B4E /* Check Pods Manifest.lock */ = {
+		2E7E931E765E194986BF122A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PXButton/Pods-PXButton-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C49E6CAC22180A15D25BDB5F /* Embed Pods Frameworks */ = {
+		34E8E2C971142FCD0B5C7D04 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3FB3FB11E67FD48391E9C541 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PXButton-SwiftExampleTests/Pods-PXButton-SwiftExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65D8251B651081B63DFA6C2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,14 +527,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D31FABBE38F2480714AF7C35 /* Copy Pods Resources */ = {
+		7DA499ED10663AD7BF03CB45 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,34 +542,124 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EDD2E1784A8D2676FABDD55B /* Check Pods Manifest.lock */ = {
+		814A9CCCCA34447A118E281B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94650239F2FDBDDB8AB025D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PXButton-SwiftExampleTests/Pods-PXButton-SwiftExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3CDA13B020DF1036E466773 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PXButton-SwiftExample/Pods-PXButton-SwiftExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD6129498F25E4B38DCC7320 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DFB44124C52CAD3BCD01081F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2B6B8E9ADBD91662F02CDE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PXButton-SwiftExample/Pods-PXButton-SwiftExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4B11CB731E4E3B12001F7521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B11CB9A1E4E3B50001F7521 /* ViewController.swift in Sources */,
+				4B11CB991E4E3B4D001F7521 /* View.swift in Sources */,
+				4B11CB971E4E3B49001F7521 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B11CB861E4E3B12001F7521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B11CB8F1E4E3B12001F7521 /* PXButton_SwiftExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* PXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* PXViewController.m in Sources */,
-				551891B31C769F5F00C54CA2 /* View.swift in Sources */,
 				2CBAE6831B0D37C300C0C55C /* PXView.m in Sources */,
-				551891B41C769F5F00C54CA2 /* ViewController.swift in Sources */,
-				551891B21C769F5F00C54CA2 /* AppDelegate.swift in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +675,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4B11CB8C1E4E3B12001F7521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B11CB761E4E3B12001F7521 /* PXButton-SwiftExample */;
+			targetProxy = 4B11CB8B1E4E3B12001F7521 /* PBXContainerItemProxy */;
+		};
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* PXButton */;
@@ -462,6 +707,110 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4B11CB911E4E3B12001F7521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8719B35E19B913449E7A5382 /* Pods-PXButton-SwiftExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "PXButton-SwiftExample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.PXButton-SwiftExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "PXButton-SwiftExample/PXButton-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B11CB921E4E3B12001F7521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0DC60B95E14B614CE5016B /* Pods-PXButton-SwiftExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "PXButton-SwiftExample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.PXButton-SwiftExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PXButton-SwiftExample/PXButton-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4B11CB931E4E3B12001F7521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 651F84507DC28E432EBF4BA2 /* Pods-PXButton-SwiftExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "PXButton-SwiftExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.PXButton.PXButton-SwiftExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PXButton-SwiftExample.app/PXButton-SwiftExample";
+			};
+			name = Debug;
+		};
+		4B11CB941E4E3B12001F7521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4C81764E9ED6EB9DFF9216E /* Pods-PXButton-SwiftExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "PXButton-SwiftExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.PXButton.PXButton-SwiftExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PXButton-SwiftExample.app/PXButton-SwiftExample";
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -475,14 +824,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -515,13 +869,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -530,6 +889,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -537,7 +897,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C7E9A7754123187C4DD72CB /* Pods-PXButton.debug.xcconfig */;
+			baseConfigurationReference = 0743F58147392B6D73356172 /* Pods-PXButton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -548,15 +908,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = PXButton;
-				SWIFT_OBJC_BRIDGING_HEADER = "PXButton/PXButton-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E0F73FF836502002B60E20C /* Pods-PXButton.release.xcconfig */;
+			baseConfigurationReference = 3315A680F7457DECF18C8C16 /* Pods-PXButton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -567,14 +927,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = PXButton;
-				SWIFT_OBJC_BRIDGING_HEADER = "PXButton/PXButton-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C40DAEAC503B92C9FD2ACC0D /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = 946D5551A50848732B4EA993 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PXButton.app/PXButton";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -598,7 +958,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F2FE75BE80D076E4692C82B /* Pods-Tests.release.xcconfig */;
+			baseConfigurationReference = F8C1A7687FEA6CF4F830FFBC /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PXButton.app/PXButton";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -619,6 +979,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4B11CB951E4E3B12001F7521 /* Build configuration list for PBXNativeTarget "PXButton-SwiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B11CB911E4E3B12001F7521 /* Debug */,
+				4B11CB921E4E3B12001F7521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B11CB961E4E3B12001F7521 /* Build configuration list for PBXNativeTarget "PXButton-SwiftExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B11CB931E4E3B12001F7521 /* Debug */,
+				4B11CB941E4E3B12001F7521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "PXButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

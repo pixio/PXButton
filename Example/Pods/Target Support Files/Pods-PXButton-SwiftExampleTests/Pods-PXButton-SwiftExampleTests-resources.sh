@@ -77,10 +77,10 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "$PODS_CONFIGURATION_BUILD_DIR/PXButton-iOS9.2/PXButton.bundle"
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/PXButton-iOS10.2/PXButton.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "$PODS_CONFIGURATION_BUILD_DIR/PXButton-iOS9.2/PXButton.bundle"
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/PXButton-iOS10.2/PXButton.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
