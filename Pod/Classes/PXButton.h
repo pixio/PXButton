@@ -42,7 +42,7 @@ typedef NS_ENUM(NSInteger, PXButtonIconPosition)
 /**
  *  The color of the border around the button.
  */
-@property (nonatomic) UIColor* borderColor;
+@property (nonatomic, nullable) UIColor* borderColor;
 
 /**
  *  The width of the border around the button.
@@ -75,12 +75,12 @@ typedef NS_ENUM(NSInteger, PXButtonIconPosition)
  *
  *  @return a new button instance.
  */
-+ (instancetype) button;
++ (nonnull instancetype) button;
 
 /**
  *  The font for the title in this button.
  */
-@property (nonatomic) UIFont* font UI_APPEARANCE_SELECTOR;
+@property (nonatomic, nullable) UIFont* font UI_APPEARANCE_SELECTOR;
 
 /**
  *  Set the image for the button and specifiy whether or not the image should be tinted or colored.
@@ -89,7 +89,7 @@ typedef NS_ENUM(NSInteger, PXButtonIconPosition)
  *  @param state the control state the image is used for
  *  @param tint  whether or not to tint the image or use its original color
  */
-- (void)setImage:(UIImage *)image forState:(UIControlState)state tint:(BOOL)tint;
+- (void)setImage:(nullable UIImage *)image forState:(UIControlState)state tint:(BOOL)tint;
 
 /**
  *  Set the image for the button and indicate what position it will be relative to the title.
@@ -100,7 +100,7 @@ typedef NS_ENUM(NSInteger, PXButtonIconPosition)
  *  @param iconPosition the position relative to the title
  *  @param state        the control state for this image
  */
-- (void)setImage:(UIImage *)image atPosition:(PXButtonIconPosition)iconPosition forState:(UIControlState)state;
+- (void)setImage:(nullable UIImage *)image atPosition:(PXButtonIconPosition)iconPosition forState:(UIControlState)state;
 
 /**
  *  Set the image for the button and indicate what position it will be relative to the title.
@@ -112,6 +112,6 @@ typedef NS_ENUM(NSInteger, PXButtonIconPosition)
  *  @param state        the control state for this image
  *  @param tint         whether or not to tint the image or use its original color
  */
-- (void)setImage:(UIImage *)image atPosition:(PXButtonIconPosition)iconPosition forState:(UIControlState)state tint:(BOOL)tint;
+- (void)setImage:(nullable UIImage *)image atPosition:(PXButtonIconPosition)iconPosition forState:(UIControlState)state tint:(BOOL)tint;
 
 @end

@@ -78,6 +78,12 @@
     [self setIconPosition:iconPosition];
 }
 
+- (void)setFont:(UIFont *)font
+{
+    _font = font;
+    [[self titleLabel] setFont:font];
+}
+
 - (UIColor *)tintColor
 {
     return [super tintColor];

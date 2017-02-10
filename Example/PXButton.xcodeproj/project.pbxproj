@@ -177,13 +177,6 @@
 			path = "PXButton-SwiftExampleTests";
 			sourceTree = "<group>";
 		};
-		551891AD1C769E9F00C54CA2 /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Swift;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -228,7 +221,6 @@
 		6003F593195388D20070C39A /* PXButton */ = {
 			isa = PBXGroup;
 			children = (
-				551891AD1C769E9F00C54CA2 /* Swift */,
 				6003F59C195388D20070C39A /* PXAppDelegate.h */,
 				6003F59D195388D20070C39A /* PXAppDelegate.m */,
 				6003F5A5195388D20070C39A /* PXViewController.h */,
