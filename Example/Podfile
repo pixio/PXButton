@@ -1,9 +1,17 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'PXButton', :exclusive => true do
+target 'PXButton' do
   pod "PXButton", :path => "../"
 end
 
-target 'Tests', :exclusive => true do
+target 'Tests' do
   pod "PXButton", :path => "../"
+end
+
+target 'PXButton-SwiftExample' do
+    pod "PXButton", :path => "../"
+end
+
+target 'PXButton-SwiftExampleTests' do
+    pod "PXButton", :path => "../"
 end

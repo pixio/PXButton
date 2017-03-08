@@ -13,8 +13,8 @@ class ViewController: UIViewController {
         return view as! View
     }
     
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return UIStatusBarStyle.LightContent
+    override var preferredStatusBarStyle : UIStatusBarStyle {
+        return UIStatusBarStyle.lightContent
     }
     
     override func loadView() {
@@ -27,14 +27,14 @@ class ViewController: UIViewController {
         title = "PX Button"
         
         view.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
-        edgesForExtendedLayout = UIRectEdge.None
+        edgesForExtendedLayout = UIRectEdge()
         
-        contentView.jakeButton.addTarget(self, action: "pressed:", forControlEvents: UIControlEvents.TouchUpInside)
-        contentView.finnButton.addTarget(self, action: "pressed:", forControlEvents: UIControlEvents.TouchUpInside)
+        contentView.jakeButton.addTarget(self, action: #selector(ViewController.pressed(_:)), for: UIControlEvents.touchUpInside)
+        contentView.finnButton.addTarget(self, action: #selector(ViewController.pressed(_:)), for: UIControlEvents.touchUpInside)
     }
     
-    func pressed(button: PXButton) {
-        button.setImage(button.imageForState(UIControlState.Normal)?.imageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate), forState: UIControlState.Normal)
+    func pressed(_ button: PXButton) {
+        button.setImage(button.image(for: UIControlState())?.withRenderingMode(UIImageRenderingMode.alwaysTemplate), for: UIControlState())
         button.tintColor = UIColor(hue: CGFloat(drand48()), saturation: 1.0, brightness: 1.0, alpha: 1.0)
     }
 }

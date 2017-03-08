@@ -7,311 +7,515 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		374486A746CD56FF935F31939A2B32AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		38F44B0FC4D0C481535A3C65971FD85B /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DC93A135A8CDA811EE9FF7EE758138 /* Pods-Tests-dummy.m */; };
-		4DF74802BCF025A3DBE8055C8CEBCA28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		5219144BD7379847765F74A18943922F /* Pods-PXButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C419D5AAFD56C6FFB0C67B6C8FFDDB2 /* Pods-PXButton-dummy.m */; };
-		7B9230C441E2D5B06BCAADF73C25212B /* PXButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 69CB3BA985E7756B71EC3737C0C8ED1D /* PXButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		897475D48C75EB49E496BF0DAD899B41 /* PXButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 462C4A0550022770A6FFD2BC41050DF7 /* PXButton-dummy.m */; };
-		8BDDD6A3FD45F8E1DC03D054CD87F535 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
-		91FC320E13CA0A62178B434F07BFC7D6 /* PXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE1EE72A5D5A57F3BEBCE11E6C2A94B /* PXButton.m */; };
-		D62C1817126D05873C7DA79F0E62ADD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		06ABA1C1D163EBD410814D69998E1E34 /* Pods-PXButton-SwiftExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD285F53224789276DE20B7B532528 /* Pods-PXButton-SwiftExampleTests-dummy.m */; };
+		17BFDB12E965B856EE760F2DD310C3D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		1F2227E7EBBB401B5C80FBE126F4F8B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		218F8CD981C6CCC0A93FB31A9F4DB1A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		2C1DBA2F001D1D75A05889CB193A95C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		31BBD83FAD9A221FD9734DAEB6C4F29D /* PXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3F9CC9947B6133099D2107B6E4169A /* PXButton.m */; };
+		337B11C66D50825993B52602586572DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		370CF09B0680237975430EDBC5F93856 /* PXButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F19AA05A4C0880CC07AC61C5012D58BB /* PXButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		445DF234D14B1F5460D96137CA2BC802 /* PXButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F19AA05A4C0880CC07AC61C5012D58BB /* PXButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69BC57B0AA5C85E4FBD87C5AAB9748E7 /* Pods-PXButton-SwiftExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5AE41F017C2F30375F4A32A23A5090 /* Pods-PXButton-SwiftExample-dummy.m */; };
+		7D04DDBFDB64AFE4DE1066B7436EC4F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		816E77060030072C96866DFBBB3F7926 /* Pods-PXButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AD7A5CAFDDEC3B3FBF464EE027AED7 /* Pods-PXButton-dummy.m */; };
+		86FE18E8C4B0DA50B32B41E5341FD7CE /* PXButton-iOS10.2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDDD9E69D343497827BEA91E60DE83 /* PXButton-iOS10.2-dummy.m */; };
+		94663A2E188F4870A19382FC1477490B /* PXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3F9CC9947B6133099D2107B6E4169A /* PXButton.m */; };
+		95172A4E5EBEA488CAE279C603F008DA /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1F7A9E18F092E6E165DA548089EA7E /* Pods-Tests-dummy.m */; };
+		993200BB755BD40E76B15B47818A1B1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E59432D1F40ED27432671BB7FF74129C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		E5FDBF976B3E6EBC96DB2FD5180B0858 /* PXButton-iOS9.2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15388587D41520D6D2B9135A57781373 /* PXButton-iOS9.2-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		30FD1C20D2EED4AD0B180E3036B6F5FD /* PBXContainerItemProxy */ = {
+		22247FAA6A885E7EF001F1EB0FE86C02 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 14F74FD97D0CE47E68DADE91A074CC6A;
-			remoteInfo = "PXButton-PXButton";
+			remoteGlobalIDString = 1F2A99D2F2D39BE8F360F2EA9E4F39E7;
+			remoteInfo = "PXButton-iOS9.2";
 		};
-		51F84CA9D19E95866DF7A0F35065EF93 /* PBXContainerItemProxy */ = {
+		2A50D53EDB0F3CA9DEE38D4B2ACBA106 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BE62C1ECD778EC598FAB92C2032A87A9;
-			remoteInfo = PXButton;
+			remoteGlobalIDString = 137C37C153F78EA133FF308854CB9905;
+			remoteInfo = "PXButton-iOS9.2-PXButton";
 		};
-		C71F9237D526DCAC40778DEBB6691CE2 /* PBXContainerItemProxy */ = {
+		9CE6159D83ABB3A28B4278C90B3674E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BE62C1ECD778EC598FAB92C2032A87A9;
-			remoteInfo = PXButton;
+			remoteGlobalIDString = 1F2A99D2F2D39BE8F360F2EA9E4F39E7;
+			remoteInfo = "PXButton-iOS9.2";
+		};
+		A884C1575F77B46F9287CB526CDEE456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F2A99D2F2D39BE8F360F2EA9E4F39E7;
+			remoteInfo = "PXButton-iOS9.2";
+		};
+		E2D3E90F8650AEE52C6ED7078F01CC62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDBB248D51822A24F7F53D8D1E8F6C18;
+			remoteInfo = "PXButton-iOS10.2";
+		};
+		E36F89257C76ED72017CB652400AB743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4878D8A4A39F8B59D0A8B734CC3B134A;
+			remoteInfo = "PXButton-iOS10.2-PXButton";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		007D80919C55F006D7F09F7F5FF268E8 /* libPXButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPXButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		07FEFBBE1CA87B8EC4897ADC372A40FA /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		28A390C66CF8C6186D38EE98AFACB078 /* Pods-PXButton-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXButton-frameworks.sh"; sourceTree = "<group>"; };
-		2AD760056E12A78BCF7DEF07C2E0EF6C /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2C419D5AAFD56C6FFB0C67B6C8FFDDB2 /* Pods-PXButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXButton-dummy.m"; sourceTree = "<group>"; };
-		2EE1EE72A5D5A57F3BEBCE11E6C2A94B /* PXButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXButton.m; sourceTree = "<group>"; };
-		2EE2370F242BC46A582D76E0ACBF212D /* Pods-PXButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXButton.debug.xcconfig"; sourceTree = "<group>"; };
-		3312E8F683CB66827C06348251D90779 /* Pods-PXButton-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXButton-resources.sh"; sourceTree = "<group>"; };
-		42DC93A135A8CDA811EE9FF7EE758138 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		462C4A0550022770A6FFD2BC41050DF7 /* PXButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXButton-dummy.m"; sourceTree = "<group>"; };
-		47E29421AD615FE02955ACB2147A4CD0 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A744ABB6A7940CC8456A68B5546FC6A /* PXButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXButton-prefix.pch"; sourceTree = "<group>"; };
-		69CB3BA985E7756B71EC3737C0C8ED1D /* PXButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXButton.h; sourceTree = "<group>"; };
-		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		72B22250F8D00351A5C263A1B62F0450 /* PXButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A2CC49D4C4390519E6BDF444A40004F /* Pods-PXButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXButton.release.xcconfig"; sourceTree = "<group>"; };
-		8ED8CE05A1753B17DBB151831D94AEB9 /* Pods-PXButton-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXButton-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9937302F705E2F9FD502A3E771AB9916 /* PXButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXButton.xcconfig; sourceTree = "<group>"; };
-		9EAFB0C290252FC80C4F0FC7F7377011 /* libPods-PXButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FCEC2A839ADFF5448C5FA7DC65DD378 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A9039E425B452BE614A1CE76946B7797 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		B0803AB5D6C432F07EDED5C184E7BD59 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		DE6BDC3BC51DC28219B71404E1537EA3 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EE2371D32374FDDF0612DB7830166C62 /* Pods-PXButton-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXButton-acknowledgements.plist"; sourceTree = "<group>"; };
+		09D70958B7D381EAA83C58AF544D709C /* libPXButton-iOS9.2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPXButton-iOS9.2.a"; path = "libPXButton-iOS9.2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CE94BB1AC92B7F3384DBE7C1994CBA2 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0DBD285F53224789276DE20B7B532528 /* Pods-PXButton-SwiftExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXButton-SwiftExampleTests-dummy.m"; sourceTree = "<group>"; };
+		15388587D41520D6D2B9135A57781373 /* PXButton-iOS9.2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PXButton-iOS9.2-dummy.m"; path = "../PXButton-iOS9.2/PXButton-iOS9.2-dummy.m"; sourceTree = "<group>"; };
+		16F2A4E9DCB73A6D24FD1584334EB3AC /* Pods-PXButton-SwiftExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXButton-SwiftExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		222EBF658EF7601D4EBAA7256B5BE8C6 /* Pods-PXButton-SwiftExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXButton-SwiftExample-frameworks.sh"; sourceTree = "<group>"; };
+		2529D6B989AAFDBF71EC68764F6D3B49 /* ResourceBundle-PXButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ResourceBundle-PXButton-Info.plist"; path = "../PXButton-iOS9.2/ResourceBundle-PXButton-Info.plist"; sourceTree = "<group>"; };
+		27FDDD9E69D343497827BEA91E60DE83 /* PXButton-iOS10.2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXButton-iOS10.2-dummy.m"; sourceTree = "<group>"; };
+		313B7DB41D7259C0DD8CD41B10DE78D7 /* Pods-PXButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXButton.debug.xcconfig"; sourceTree = "<group>"; };
+		3DBCD2FA2F0D7E25353B1FFA3519C6C0 /* libPXButton-iOS10.2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPXButton-iOS10.2.a"; path = "libPXButton-iOS10.2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		479F8827446DD4441AD9D318DC20625C /* libPods-PXButton-SwiftExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PXButton-SwiftExample.a"; path = "libPods-PXButton-SwiftExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C4880CBFED3A14C27ECB8092AC2C65 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		565A446C5DC75E919F584CADC48FE8A9 /* Pods-PXButton-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXButton-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B441035324EACC12913F853680ACE25 /* libPods-PXButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PXButton.a"; path = "libPods-PXButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1F7A9E18F092E6E165DA548089EA7E /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		5FEE3B5FE4A7152A6FD48975EF516594 /* Pods-PXButton-SwiftExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXButton-SwiftExampleTests-resources.sh"; sourceTree = "<group>"; };
+		613429E7F7D8517B83634600F0BE495D /* Pods-PXButton-SwiftExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXButton-SwiftExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		632D57FC03F2E4BE01196AFD8160477F /* PXButton-iOS9.2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PXButton-iOS9.2-prefix.pch"; path = "../PXButton-iOS9.2/PXButton-iOS9.2-prefix.pch"; sourceTree = "<group>"; };
+		683C44D0C8EC48C7F8725451DC2ABE75 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7A092140A893C227C869D52AD5C3124A /* Pods-PXButton-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXButton-frameworks.sh"; sourceTree = "<group>"; };
+		7AB62759275F996D684BE7152C7A37B4 /* Pods-PXButton-SwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXButton-SwiftExample.release.xcconfig"; sourceTree = "<group>"; };
+		7C9433B41A9C782E183E26F4A592F1AF /* libPods-PXButton-SwiftExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PXButton-SwiftExampleTests.a"; path = "libPods-PXButton-SwiftExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E86EB1594AE01E1C70566A4EB62875A /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		87107514CD7B0463DA90C6D4EF488873 /* ResourceBundle-PXButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PXButton-Info.plist"; sourceTree = "<group>"; };
+		89AB8C7C4A6EE5BE567ECDDD33712E8E /* PXButton-iOS9.2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "PXButton-iOS9.2.xcconfig"; path = "../PXButton-iOS9.2/PXButton-iOS9.2.xcconfig"; sourceTree = "<group>"; };
+		8A7357181321D0A783B055696A26D5E6 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		964E55362361B50D97354F01F664E304 /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		99E27729374FEE3B581254AB5E2627CD /* Pods-PXButton-SwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXButton-SwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
+		9F5AE41F017C2F30375F4A32A23A5090 /* Pods-PXButton-SwiftExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXButton-SwiftExample-dummy.m"; sourceTree = "<group>"; };
+		9FFDA44BC1DC69BAB2297FD40CFDAC03 /* Pods-PXButton-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXButton-resources.sh"; sourceTree = "<group>"; };
+		A0AD7A5CAFDDEC3B3FBF464EE027AED7 /* Pods-PXButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXButton-dummy.m"; sourceTree = "<group>"; };
+		A7FB5C873254F5967BD76D2ABAE8DB2D /* PXButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PXButton.bundle; path = PXButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAECFF0F48AD7FEC8A5388F4EA461E44 /* Pods-PXButton-SwiftExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXButton-SwiftExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB3F9CC9947B6133099D2107B6E4169A /* PXButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXButton.m; sourceTree = "<group>"; };
+		BF3013DEA5A9068BE8093BB835932EEB /* Pods-PXButton-SwiftExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXButton-SwiftExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2751E71C88C10DF9057D148D4601AF3 /* Pods-PXButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXButton.release.xcconfig"; sourceTree = "<group>"; };
+		D633FF8D8736CB17C1DF98E040C491C3 /* Pods-PXButton-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXButton-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB082AF85445F8C0E8983C8A1213B8A6 /* Pods-PXButton-SwiftExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXButton-SwiftExample-resources.sh"; sourceTree = "<group>"; };
+		E06997D80961C9E85B87293B37139D41 /* PXButton-iOS10.2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXButton-iOS10.2-prefix.pch"; sourceTree = "<group>"; };
+		E184DA158FEC5F817E708635D6037004 /* Pods-PXButton-SwiftExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXButton-SwiftExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		E89E1DDA15D169F9BA71566B4D9ED686 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Tests.a"; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4F456B805A862BE5E9AFD3FE9DBBA1 /* Pods-PXButton-SwiftExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXButton-SwiftExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		F0F30BAF93DCD04553EC95556D904CBC /* PXButton-iOS10.2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PXButton-iOS10.2.xcconfig"; sourceTree = "<group>"; };
+		F19AA05A4C0880CC07AC61C5012D58BB /* PXButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXButton.h; sourceTree = "<group>"; };
+		FF9F0CA80B14062D16A82FE9B3EC4210 /* Pods-PXButton-SwiftExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXButton-SwiftExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		067D74560ADA6123BCE48270F73B8AB4 /* Frameworks */ = {
+		2F65FA9026AA975C88A8091D994D99FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				374486A746CD56FF935F31939A2B32AB /* Foundation.framework in Frameworks */,
-				8BDDD6A3FD45F8E1DC03D054CD87F535 /* UIKit.framework in Frameworks */,
+				1F2227E7EBBB401B5C80FBE126F4F8B0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5774A9E7081C82206782563BD52FA099 /* Frameworks */ = {
+		3CFD2A883101A84E9E94D97D8616284B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D04DDBFDB64AFE4DE1066B7436EC4F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62FB6F2C4497E3646A7034F59D563607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337B11C66D50825993B52602586572DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8573D25E9C5D32A032452F5C4869B578 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D250BAC72FAAC695250E71E4D07FF50E /* Frameworks */ = {
+		9AC253803AB7AB80C21F8651F97A8DA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DF74802BCF025A3DBE8055C8CEBCA28 /* Foundation.framework in Frameworks */,
+				2C1DBA2F001D1D75A05889CB193A95C0 /* Foundation.framework in Frameworks */,
+				E59432D1F40ED27432671BB7FF74129C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB82DB9700F48927700A95D02C9C4DBD /* Frameworks */ = {
+		9E19F7A39A209F86C53C0F26E71C57D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D62C1817126D05873C7DA79F0E62ADD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE8E73072323AA9E6B19DAB7E753C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218F8CD981C6CCC0A93FB31A9F4DB1A9 /* Foundation.framework in Frameworks */,
+				17BFDB12E965B856EE760F2DD310C3D1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE77611D40B3E89C7F23A3A38A7C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993200BB755BD40E76B15B47818A1B1E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+		06F22A9AE47C18123F9C133AA7513CC7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
-				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+				2B89CD52950FE8F934E2956126714C74 /* Classes */,
 			);
-			name = iOS;
+			name = Pod;
+			path = Pod;
 			sourceTree = "<group>";
 		};
-		1C7B985DE639ECFFDC18B92DF516AECE /* Classes */ = {
+		2B89CD52950FE8F934E2956126714C74 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				69CB3BA985E7756B71EC3737C0C8ED1D /* PXButton.h */,
-				2EE1EE72A5D5A57F3BEBCE11E6C2A94B /* PXButton.m */,
+				F19AA05A4C0880CC07AC61C5012D58BB /* PXButton.h */,
+				BB3F9CC9947B6133099D2107B6E4169A /* PXButton.m */,
 			);
+			name = Classes;
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		1CBA76091CFC5A044141C6FF4647898B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9EAFB0C290252FC80C4F0FC7F7377011 /* libPods-PXButton.a */,
-				47E29421AD615FE02955ACB2147A4CD0 /* libPods-Tests.a */,
-				007D80919C55F006D7F09F7F5FF268E8 /* libPXButton.a */,
-				72B22250F8D00351A5C263A1B62F0450 /* PXButton.bundle */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				18340F12838DEE43507667CC74401EB1 /* iOS */,
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4A50E6291E90659E7E12BA0EC82397F6 /* Pods-PXButton */ = {
+		4453E428B5758915FD59AAEC25DCC0E3 /* Pods-PXButton-SwiftExample */ = {
 			isa = PBXGroup;
 			children = (
-				8ED8CE05A1753B17DBB151831D94AEB9 /* Pods-PXButton-acknowledgements.markdown */,
-				EE2371D32374FDDF0612DB7830166C62 /* Pods-PXButton-acknowledgements.plist */,
-				2C419D5AAFD56C6FFB0C67B6C8FFDDB2 /* Pods-PXButton-dummy.m */,
-				28A390C66CF8C6186D38EE98AFACB078 /* Pods-PXButton-frameworks.sh */,
-				3312E8F683CB66827C06348251D90779 /* Pods-PXButton-resources.sh */,
-				2EE2370F242BC46A582D76E0ACBF212D /* Pods-PXButton.debug.xcconfig */,
-				7A2CC49D4C4390519E6BDF444A40004F /* Pods-PXButton.release.xcconfig */,
+				AAECFF0F48AD7FEC8A5388F4EA461E44 /* Pods-PXButton-SwiftExample-acknowledgements.markdown */,
+				BF3013DEA5A9068BE8093BB835932EEB /* Pods-PXButton-SwiftExample-acknowledgements.plist */,
+				9F5AE41F017C2F30375F4A32A23A5090 /* Pods-PXButton-SwiftExample-dummy.m */,
+				222EBF658EF7601D4EBAA7256B5BE8C6 /* Pods-PXButton-SwiftExample-frameworks.sh */,
+				DB082AF85445F8C0E8983C8A1213B8A6 /* Pods-PXButton-SwiftExample-resources.sh */,
+				99E27729374FEE3B581254AB5E2627CD /* Pods-PXButton-SwiftExample.debug.xcconfig */,
+				7AB62759275F996D684BE7152C7A37B4 /* Pods-PXButton-SwiftExample.release.xcconfig */,
 			);
-			name = "Pods-PXButton";
-			path = "Target Support Files/Pods-PXButton";
+			name = "Pods-PXButton-SwiftExample";
+			path = "Target Support Files/Pods-PXButton-SwiftExample";
 			sourceTree = "<group>";
 		};
-		6BECC6634B7CEC35EAD7C2CCF16B3A15 /* Pods-Tests */ = {
+		4BC2A6CC00D1A875475C35B3112867CA /* PXButton */ = {
 			isa = PBXGroup;
 			children = (
-				DE6BDC3BC51DC28219B71404E1537EA3 /* Pods-Tests-acknowledgements.markdown */,
-				9FCEC2A839ADFF5448C5FA7DC65DD378 /* Pods-Tests-acknowledgements.plist */,
-				42DC93A135A8CDA811EE9FF7EE758138 /* Pods-Tests-dummy.m */,
-				2AD760056E12A78BCF7DEF07C2E0EF6C /* Pods-Tests-frameworks.sh */,
-				A9039E425B452BE614A1CE76946B7797 /* Pods-Tests-resources.sh */,
-				B0803AB5D6C432F07EDED5C184E7BD59 /* Pods-Tests.debug.xcconfig */,
-				07FEFBBE1CA87B8EC4897ADC372A40FA /* Pods-Tests.release.xcconfig */,
-			);
-			name = "Pods-Tests";
-			path = "Target Support Files/Pods-Tests";
-			sourceTree = "<group>";
-		};
-		794DC38D4ECD449B40855D9102FD7906 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1C7B985DE639ECFFDC18B92DF516AECE /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				CBAA75DD7E310A081E17A4C4D3324C35 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				1CBA76091CFC5A044141C6FF4647898B /* Products */,
-				83DAF49F1B27456BF2AB18C1C251A85E /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		83DAF49F1B27456BF2AB18C1C251A85E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4A50E6291E90659E7E12BA0EC82397F6 /* Pods-PXButton */,
-				6BECC6634B7CEC35EAD7C2CCF16B3A15 /* Pods-Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C0B1CBB36EEAE82DD2B4D693259932A9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9937302F705E2F9FD502A3E771AB9916 /* PXButton.xcconfig */,
-				462C4A0550022770A6FFD2BC41050DF7 /* PXButton-dummy.m */,
-				5A744ABB6A7940CC8456A68B5546FC6A /* PXButton-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PXButton";
-			sourceTree = "<group>";
-		};
-		CBAA75DD7E310A081E17A4C4D3324C35 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FB0C7BDA668A0E76E06738A9888F322E /* PXButton */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FB0C7BDA668A0E76E06738A9888F322E /* PXButton */ = {
-			isa = PBXGroup;
-			children = (
-				794DC38D4ECD449B40855D9102FD7906 /* Pod */,
-				C0B1CBB36EEAE82DD2B4D693259932A9 /* Support Files */,
+				06F22A9AE47C18123F9C133AA7513CC7 /* Pod */,
+				D10CFA0B2BB12F7D4393E97C2764DB28 /* Support Files */,
 			);
 			name = PXButton;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		592F39F0802D5AA2FE7F94A24B167F9E /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0CE94BB1AC92B7F3384DBE7C1994CBA2 /* Pods-Tests-acknowledgements.markdown */,
+				7E86EB1594AE01E1C70566A4EB62875A /* Pods-Tests-acknowledgements.plist */,
+				5F1F7A9E18F092E6E165DA548089EA7E /* Pods-Tests-dummy.m */,
+				964E55362361B50D97354F01F664E304 /* Pods-Tests-frameworks.sh */,
+				8A7357181321D0A783B055696A26D5E6 /* Pods-Tests-resources.sh */,
+				50C4880CBFED3A14C27ECB8092AC2C65 /* Pods-Tests.debug.xcconfig */,
+				683C44D0C8EC48C7F8725451DC2ABE75 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CBAA75DD7E310A081E17A4C4D3324C35 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				925FB2C30AEC46FB1E24AC8A35D11191 /* Products */,
+				F0B373268135D2491576B11998111E74 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		925FB2C30AEC46FB1E24AC8A35D11191 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B441035324EACC12913F853680ACE25 /* libPods-PXButton.a */,
+				479F8827446DD4441AD9D318DC20625C /* libPods-PXButton-SwiftExample.a */,
+				7C9433B41A9C782E183E26F4A592F1AF /* libPods-PXButton-SwiftExampleTests.a */,
+				E89E1DDA15D169F9BA71566B4D9ED686 /* libPods-Tests.a */,
+				3DBCD2FA2F0D7E25353B1FFA3519C6C0 /* libPXButton-iOS10.2.a */,
+				09D70958B7D381EAA83C58AF544D709C /* libPXButton-iOS9.2.a */,
+				A7FB5C873254F5967BD76D2ABAE8DB2D /* PXButton.bundle */,
+				A7FB5C873254F5967BD76D2ABAE8DB2D /* PXButton.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1158F580B70A6F0390F1E90BFFC7592 /* Pods-PXButton-SwiftExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				613429E7F7D8517B83634600F0BE495D /* Pods-PXButton-SwiftExampleTests-acknowledgements.markdown */,
+				FF9F0CA80B14062D16A82FE9B3EC4210 /* Pods-PXButton-SwiftExampleTests-acknowledgements.plist */,
+				0DBD285F53224789276DE20B7B532528 /* Pods-PXButton-SwiftExampleTests-dummy.m */,
+				ED4F456B805A862BE5E9AFD3FE9DBBA1 /* Pods-PXButton-SwiftExampleTests-frameworks.sh */,
+				5FEE3B5FE4A7152A6FD48975EF516594 /* Pods-PXButton-SwiftExampleTests-resources.sh */,
+				16F2A4E9DCB73A6D24FD1584334EB3AC /* Pods-PXButton-SwiftExampleTests.debug.xcconfig */,
+				E184DA158FEC5F817E708635D6037004 /* Pods-PXButton-SwiftExampleTests.release.xcconfig */,
+			);
+			name = "Pods-PXButton-SwiftExampleTests";
+			path = "Target Support Files/Pods-PXButton-SwiftExampleTests";
+			sourceTree = "<group>";
+		};
+		CBAA75DD7E310A081E17A4C4D3324C35 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BC2A6CC00D1A875475C35B3112867CA /* PXButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D10CFA0B2BB12F7D4393E97C2764DB28 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0F30BAF93DCD04553EC95556D904CBC /* PXButton-iOS10.2.xcconfig */,
+				27FDDD9E69D343497827BEA91E60DE83 /* PXButton-iOS10.2-dummy.m */,
+				E06997D80961C9E85B87293B37139D41 /* PXButton-iOS10.2-prefix.pch */,
+				89AB8C7C4A6EE5BE567ECDDD33712E8E /* PXButton-iOS9.2.xcconfig */,
+				15388587D41520D6D2B9135A57781373 /* PXButton-iOS9.2-dummy.m */,
+				632D57FC03F2E4BE01196AFD8160477F /* PXButton-iOS9.2-prefix.pch */,
+				2529D6B989AAFDBF71EC68764F6D3B49 /* ResourceBundle-PXButton-Info.plist */,
+				87107514CD7B0463DA90C6D4EF488873 /* ResourceBundle-PXButton-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PXButton-iOS10.2";
+			sourceTree = "<group>";
+		};
+		D520227419949E2950985A0D07A36656 /* Pods-PXButton */ = {
+			isa = PBXGroup;
+			children = (
+				565A446C5DC75E919F584CADC48FE8A9 /* Pods-PXButton-acknowledgements.markdown */,
+				D633FF8D8736CB17C1DF98E040C491C3 /* Pods-PXButton-acknowledgements.plist */,
+				A0AD7A5CAFDDEC3B3FBF464EE027AED7 /* Pods-PXButton-dummy.m */,
+				7A092140A893C227C869D52AD5C3124A /* Pods-PXButton-frameworks.sh */,
+				9FFDA44BC1DC69BAB2297FD40CFDAC03 /* Pods-PXButton-resources.sh */,
+				313B7DB41D7259C0DD8CD41B10DE78D7 /* Pods-PXButton.debug.xcconfig */,
+				D2751E71C88C10DF9057D148D4601AF3 /* Pods-PXButton.release.xcconfig */,
+			);
+			name = "Pods-PXButton";
+			path = "Target Support Files/Pods-PXButton";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F0B373268135D2491576B11998111E74 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D520227419949E2950985A0D07A36656 /* Pods-PXButton */,
+				4453E428B5758915FD59AAEC25DCC0E3 /* Pods-PXButton-SwiftExample */,
+				B1158F580B70A6F0390F1E90BFFC7592 /* Pods-PXButton-SwiftExampleTests */,
+				592F39F0802D5AA2FE7F94A24B167F9E /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		99BC01C453E174DCC8F8F6D3CEB3D02E /* Headers */ = {
+		14D15F975AEDE6D58993787939964204 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B9230C441E2D5B06BCAADF73C25212B /* PXButton.h in Headers */,
+				445DF234D14B1F5460D96137CA2BC802 /* PXButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593E859AFCE9A95BE3CDF85A6BBE8A42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370CF09B0680237975430EDBC5F93856 /* PXButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		08CCBBAEE19892F3B055EE832D649458 /* Pods-PXButton */ = {
+		137C37C153F78EA133FF308854CB9905 /* PXButton-iOS9.2-PXButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18428AFE83CC7E024B11F37C0DDDBB16 /* Build configuration list for PBXNativeTarget "Pods-PXButton" */;
+			buildConfigurationList = 4181B5DA8C5A0251594C1E9BC79360CC /* Build configuration list for PBXNativeTarget "PXButton-iOS9.2-PXButton" */;
 			buildPhases = (
-				447F88E8A148E212CEDC7817D59E394C /* Sources */,
-				D250BAC72FAAC695250E71E4D07FF50E /* Frameworks */,
+				52F2D0B4A9C9FE2E322C055440E371C2 /* Sources */,
+				9E19F7A39A209F86C53C0F26E71C57D7 /* Frameworks */,
+				9C41D87E8FA75E0FA5204DCD856FF3EC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8F9A3CF1954F6E5ECE1B943835292E20 /* PBXTargetDependency */,
+			);
+			name = "PXButton-iOS9.2-PXButton";
+			productName = "PXButton-iOS9.2-PXButton";
+			productReference = A7FB5C873254F5967BD76D2ABAE8DB2D /* PXButton.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		19857258072E84DC903B1FEA5905C72F /* Pods-PXButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E563DD8EE6B7C4AD6B226067DD5CF7 /* Build configuration list for PBXNativeTarget "Pods-PXButton" */;
+			buildPhases = (
+				BD07061A339F2ECCEF356CE4F6C324CD /* Sources */,
+				F9BE77611D40B3E89C7F23A3A38A7C02 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05B3B6660CCCD390C82D44BFBEA1426 /* PBXTargetDependency */,
 			);
 			name = "Pods-PXButton";
 			productName = "Pods-PXButton";
-			productReference = 9EAFB0C290252FC80C4F0FC7F7377011 /* libPods-PXButton.a */;
+			productReference = 5B441035324EACC12913F853680ACE25 /* libPods-PXButton.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		14F74FD97D0CE47E68DADE91A074CC6A /* PXButton-PXButton */ = {
+		1F2A99D2F2D39BE8F360F2EA9E4F39E7 /* PXButton-iOS9.2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 518D1BE226FEE05B0B04B3D3EB070BA6 /* Build configuration list for PBXNativeTarget "PXButton-PXButton" */;
+			buildConfigurationList = B344E0FBD0EE8FCFB9B8968E65E2865B /* Build configuration list for PBXNativeTarget "PXButton-iOS9.2" */;
 			buildPhases = (
-				7F22DC072C4A1728DEB125674CC21828 /* Sources */,
-				5774A9E7081C82206782563BD52FA099 /* Frameworks */,
-				7B289EB86ABDBBA25AE204C36C982B63 /* Resources */,
+				5C3A180C773F8821BC45750477570793 /* Sources */,
+				ABE8E73072323AA9E6B19DAB7E753C18 /* Frameworks */,
+				14D15F975AEDE6D58993787939964204 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63FBB2BB278007575409BD2605166C61 /* PBXTargetDependency */,
+			);
+			name = "PXButton-iOS9.2";
+			productName = "PXButton-iOS9.2";
+			productReference = 09D70958B7D381EAA83C58AF544D709C /* libPXButton-iOS9.2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		443EAE96F6CCB06CE908130CB4143771 /* Pods-PXButton-SwiftExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190A7D9718B49C561FECEB7ED65C5DFE /* Build configuration list for PBXNativeTarget "Pods-PXButton-SwiftExample" */;
+			buildPhases = (
+				8B0D511E44CD6CF05CBD4539FDD7CF4B /* Sources */,
+				3CFD2A883101A84E9E94D97D8616284B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BDEAC8F716401A63B5C8FC0E5BFC397 /* PBXTargetDependency */,
+			);
+			name = "Pods-PXButton-SwiftExample";
+			productName = "Pods-PXButton-SwiftExample";
+			productReference = 479F8827446DD4441AD9D318DC20625C /* libPods-PXButton-SwiftExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4878D8A4A39F8B59D0A8B734CC3B134A /* PXButton-iOS10.2-PXButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EFA9CABB2363B236DAE02BEAE01E844 /* Build configuration list for PBXNativeTarget "PXButton-iOS10.2-PXButton" */;
+			buildPhases = (
+				1CC5F7E05CA0A222109310CD780BAAEA /* Sources */,
+				8573D25E9C5D32A032452F5C4869B578 /* Frameworks */,
+				694B76F00664D246C03228ABCA046222 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "PXButton-PXButton";
-			productName = "PXButton-PXButton";
-			productReference = 72B22250F8D00351A5C263A1B62F0450 /* PXButton.bundle */;
+			name = "PXButton-iOS10.2-PXButton";
+			productName = "PXButton-iOS10.2-PXButton";
+			productReference = A7FB5C873254F5967BD76D2ABAE8DB2D /* PXButton.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		3801D4786A174A96F8160A056D25F24B /* Pods-Tests */ = {
+		6D6C9F2819F75827E1F11F866ED42D32 /* Pods-PXButton-SwiftExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C603ED84BB9B7CD198712E6F91A309D /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildConfigurationList = F950744286493D810A5EF20FF1CFB9C9 /* Build configuration list for PBXNativeTarget "Pods-PXButton-SwiftExampleTests" */;
 			buildPhases = (
-				C8550D24645532297B9A49C8568C20D6 /* Sources */,
-				EB82DB9700F48927700A95D02C9C4DBD /* Frameworks */,
+				2CFA69FA558D9315CAEC74B80F8321C2 /* Sources */,
+				62FB6F2C4497E3646A7034F59D563607 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3BB7190151241EB87779280886E2BAB9 /* PBXTargetDependency */,
+				1EEAE65606C87A87C612BC4538754079 /* PBXTargetDependency */,
+			);
+			name = "Pods-PXButton-SwiftExampleTests";
+			productName = "Pods-PXButton-SwiftExampleTests";
+			productReference = 7C9433B41A9C782E183E26F4A592F1AF /* libPods-PXButton-SwiftExampleTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BDBB248D51822A24F7F53D8D1E8F6C18 /* PXButton-iOS10.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5EFF4A84EE814E9838DCEC2720F7083 /* Build configuration list for PBXNativeTarget "PXButton-iOS10.2" */;
+			buildPhases = (
+				D7AF79BF7DC48A68BA3BA0556087950F /* Sources */,
+				9AC253803AB7AB80C21F8651F97A8DA7 /* Frameworks */,
+				593E859AFCE9A95BE3CDF85A6BBE8A42 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				676B977F4871C502C966E0A9BF2324EF /* PBXTargetDependency */,
+			);
+			name = "PXButton-iOS10.2";
+			productName = "PXButton-iOS10.2";
+			productReference = 3DBCD2FA2F0D7E25353B1FFA3519C6C0 /* libPXButton-iOS10.2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E3E7ED0BB2D7656F7E4BC620EB47C812 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE434E5F2D1EB7D6963BEDDC6E4C88B /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				00268F5DA8BD4451E5E468DBA7BFD74C /* Sources */,
+				2F65FA9026AA975C88A8091D994D99FF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				399A199BF048CBF69B2625725C4A2E7A /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests";
 			productName = "Pods-Tests";
-			productReference = 47E29421AD615FE02955ACB2147A4CD0 /* libPods-Tests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		BE62C1ECD778EC598FAB92C2032A87A9 /* PXButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C2C8F46585360D2BDFDEFCFE0F7CB5A4 /* Build configuration list for PBXNativeTarget "PXButton" */;
-			buildPhases = (
-				0366E3C4A164577BAD2F50C91D48F3E6 /* Sources */,
-				067D74560ADA6123BCE48270F73B8AB4 /* Frameworks */,
-				99BC01C453E174DCC8F8F6D3CEB3D02E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				90B3A88B9C10DD037257067BA91F2C8D /* PBXTargetDependency */,
-			);
-			name = PXButton;
-			productName = PXButton;
-			productReference = 007D80919C55F006D7F09F7F5FF268E8 /* libPXButton.a */;
+			productReference = E89E1DDA15D169F9BA71566B4D9ED686 /* libPods-Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -320,7 +524,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -331,20 +535,31 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1CBA76091CFC5A044141C6FF4647898B /* Products */;
+			productRefGroup = 925FB2C30AEC46FB1E24AC8A35D11191 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				08CCBBAEE19892F3B055EE832D649458 /* Pods-PXButton */,
-				3801D4786A174A96F8160A056D25F24B /* Pods-Tests */,
-				BE62C1ECD778EC598FAB92C2032A87A9 /* PXButton */,
-				14F74FD97D0CE47E68DADE91A074CC6A /* PXButton-PXButton */,
+				19857258072E84DC903B1FEA5905C72F /* Pods-PXButton */,
+				443EAE96F6CCB06CE908130CB4143771 /* Pods-PXButton-SwiftExample */,
+				6D6C9F2819F75827E1F11F866ED42D32 /* Pods-PXButton-SwiftExampleTests */,
+				E3E7ED0BB2D7656F7E4BC620EB47C812 /* Pods-Tests */,
+				BDBB248D51822A24F7F53D8D1E8F6C18 /* PXButton-iOS10.2 */,
+				4878D8A4A39F8B59D0A8B734CC3B134A /* PXButton-iOS10.2-PXButton */,
+				1F2A99D2F2D39BE8F360F2EA9E4F39E7 /* PXButton-iOS9.2 */,
+				137C37C153F78EA133FF308854CB9905 /* PXButton-iOS9.2-PXButton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7B289EB86ABDBBA25AE204C36C982B63 /* Resources */ = {
+		694B76F00664D246C03228ABCA046222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C41D87E8FA75E0FA5204DCD856FF3EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -354,66 +569,441 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0366E3C4A164577BAD2F50C91D48F3E6 /* Sources */ = {
+		00268F5DA8BD4451E5E468DBA7BFD74C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				897475D48C75EB49E496BF0DAD899B41 /* PXButton-dummy.m in Sources */,
-				91FC320E13CA0A62178B434F07BFC7D6 /* PXButton.m in Sources */,
+				95172A4E5EBEA488CAE279C603F008DA /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		447F88E8A148E212CEDC7817D59E394C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5219144BD7379847765F74A18943922F /* Pods-PXButton-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7F22DC072C4A1728DEB125674CC21828 /* Sources */ = {
+		1CC5F7E05CA0A222109310CD780BAAEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8550D24645532297B9A49C8568C20D6 /* Sources */ = {
+		2CFA69FA558D9315CAEC74B80F8321C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38F44B0FC4D0C481535A3C65971FD85B /* Pods-Tests-dummy.m in Sources */,
+				06ABA1C1D163EBD410814D69998E1E34 /* Pods-PXButton-SwiftExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F2D0B4A9C9FE2E322C055440E371C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C3A180C773F8821BC45750477570793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FDBF976B3E6EBC96DB2FD5180B0858 /* PXButton-iOS9.2-dummy.m in Sources */,
+				94663A2E188F4870A19382FC1477490B /* PXButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0D511E44CD6CF05CBD4539FDD7CF4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BC57B0AA5C85E4FBD87C5AAB9748E7 /* Pods-PXButton-SwiftExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD07061A339F2ECCEF356CE4F6C324CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816E77060030072C96866DFBBB3F7926 /* Pods-PXButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AF79BF7DC48A68BA3BA0556087950F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FE18E8C4B0DA50B32B41E5341FD7CE /* PXButton-iOS10.2-dummy.m in Sources */,
+				31BBD83FAD9A221FD9734DAEB6C4F29D /* PXButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3BB7190151241EB87779280886E2BAB9 /* PBXTargetDependency */ = {
+		1EEAE65606C87A87C612BC4538754079 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PXButton;
-			target = BE62C1ECD778EC598FAB92C2032A87A9 /* PXButton */;
-			targetProxy = 51F84CA9D19E95866DF7A0F35065EF93 /* PBXContainerItemProxy */;
+			name = "PXButton-iOS10.2";
+			target = BDBB248D51822A24F7F53D8D1E8F6C18 /* PXButton-iOS10.2 */;
+			targetProxy = E2D3E90F8650AEE52C6ED7078F01CC62 /* PBXContainerItemProxy */;
 		};
-		8F9A3CF1954F6E5ECE1B943835292E20 /* PBXTargetDependency */ = {
+		399A199BF048CBF69B2625725C4A2E7A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PXButton;
-			target = BE62C1ECD778EC598FAB92C2032A87A9 /* PXButton */;
-			targetProxy = C71F9237D526DCAC40778DEBB6691CE2 /* PBXContainerItemProxy */;
+			name = "PXButton-iOS9.2";
+			target = 1F2A99D2F2D39BE8F360F2EA9E4F39E7 /* PXButton-iOS9.2 */;
+			targetProxy = 22247FAA6A885E7EF001F1EB0FE86C02 /* PBXContainerItemProxy */;
 		};
-		90B3A88B9C10DD037257067BA91F2C8D /* PBXTargetDependency */ = {
+		63FBB2BB278007575409BD2605166C61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "PXButton-PXButton";
-			target = 14F74FD97D0CE47E68DADE91A074CC6A /* PXButton-PXButton */;
-			targetProxy = 30FD1C20D2EED4AD0B180E3036B6F5FD /* PBXContainerItemProxy */;
+			name = "PXButton-iOS9.2-PXButton";
+			target = 137C37C153F78EA133FF308854CB9905 /* PXButton-iOS9.2-PXButton */;
+			targetProxy = 2A50D53EDB0F3CA9DEE38D4B2ACBA106 /* PBXContainerItemProxy */;
+		};
+		676B977F4871C502C966E0A9BF2324EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PXButton-iOS10.2-PXButton";
+			target = 4878D8A4A39F8B59D0A8B734CC3B134A /* PXButton-iOS10.2-PXButton */;
+			targetProxy = E36F89257C76ED72017CB652400AB743 /* PBXContainerItemProxy */;
+		};
+		6BDEAC8F716401A63B5C8FC0E5BFC397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PXButton-iOS9.2";
+			target = 1F2A99D2F2D39BE8F360F2EA9E4F39E7 /* PXButton-iOS9.2 */;
+			targetProxy = A884C1575F77B46F9287CB526CDEE456 /* PBXContainerItemProxy */;
+		};
+		D05B3B6660CCCD390C82D44BFBEA1426 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PXButton-iOS9.2";
+			target = 1F2A99D2F2D39BE8F360F2EA9E4F39E7 /* PXButton-iOS9.2 */;
+			targetProxy = 9CE6159D83ABB3A28B4278C90B3674E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+		08648EA6650921222F05C9A6B9BD5A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB62759275F996D684BE7152C7A37B4 /* Pods-PXButton-SwiftExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1DC5E50035ED8A392EF8EFDED762A95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E184DA158FEC5F817E708635D6037004 /* Pods-PXButton-SwiftExampleTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1ECA19323E20153FAF892FD38BF73988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683C44D0C8EC48C7F8725451DC2ABE75 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		24B3EFF0A959980056A42BB41BD18E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89AB8C7C4A6EE5BE567ECDDD33712E8E /* PXButton-iOS9.2.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PXButton-iOS9.2";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PXButton-iOS9.2/ResourceBundle-PXButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = PXButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3500D09D9D91977D48BD1D1F52174758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313B7DB41D7259C0DD8CD41B10DE78D7 /* Pods-PXButton.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3CE617A5BBFB73450001903934CF248C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89AB8C7C4A6EE5BE567ECDDD33712E8E /* PXButton-iOS9.2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXButton-iOS9.2/PXButton-iOS9.2-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3FE7E0530413AEDD330B8B89D80AAE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F30BAF93DCD04553EC95556D904CBC /* PXButton-iOS10.2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXButton-iOS10.2/PXButton-iOS10.2-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		47BB25870111ED62C16B45F7A3CE32E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2751E71C88C10DF9057D148D4601AF3 /* Pods-PXButton.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		61CA1CDAE760206B7CB5CD7C2F7434ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F2A4E9DCB73A6D24FD1584334EB3AC /* Pods-PXButton-SwiftExampleTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8000A7B65AA3E02189F6D548DAC2987D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F30BAF93DCD04553EC95556D904CBC /* PXButton-iOS10.2.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PXButton-iOS10.2";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PXButton-iOS10.2/ResourceBundle-PXButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = PXButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		84D1ABBB521EC5D8B73D1AF9FD152973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F30BAF93DCD04553EC95556D904CBC /* PXButton-iOS10.2.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PXButton-iOS10.2";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PXButton-iOS10.2/ResourceBundle-PXButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = PXButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		882B572B58C8A33BBE3FEF2D837484F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89AB8C7C4A6EE5BE567ECDDD33712E8E /* PXButton-iOS9.2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXButton-iOS9.2/PXButton-iOS9.2-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		91F6F27C507F905CF6AFAC168B5303A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50C4880CBFED3A14C27ECB8092AC2C65 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9AAE33D70FBFC58251483FAA0D450AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89AB8C7C4A6EE5BE567ECDDD33712E8E /* PXButton-iOS9.2.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PXButton-iOS9.2";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PXButton-iOS9.2/ResourceBundle-PXButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = PXButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A2FB7541C1F2133027B1442A1B139274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E27729374FEE3B581254AB5E2627CD /* Pods-PXButton-SwiftExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AADB9822762AD81BBAE83335B2AB1EB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -427,39 +1017,33 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		06F8BF698936A16C4CCAC3D05CCC398C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9937302F705E2F9FD502A3E771AB9916 /* PXButton.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+		B1B5EB0850F98CB5AECDB015B690777F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -473,11 +1057,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -488,37 +1075,26 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		51D461ADE5E30EE91CF38B9646EF12F1 /* Debug */ = {
+		BEDBBE355FD98371D623BB6D367C1D29 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0803AB5D6C432F07EDED5C184E7BD59 /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = F0F30BAF93DCD04553EC95556D904CBC /* PXButton-iOS10.2.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		5DADEBCA90C4C2336A73B2ABB2809841 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9937302F705E2F9FD502A3E771AB9916 /* PXButton.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PXButton/PXButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXButton-iOS10.2/PXButton-iOS10.2-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -527,98 +1103,18 @@
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		626091F3C33B50B1CB3FA0BED5F3BC66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A2CC49D4C4390519E6BDF444A40004F /* Pods-PXButton.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		77F5DCB00777C7A4F8F5A12D63C3E4BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9937302F705E2F9FD502A3E771AB9916 /* PXButton.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		8371297201F08289900E86472A0538A8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9937302F705E2F9FD502A3E771AB9916 /* PXButton.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PXButton/PXButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		83C33E212F99636A931646FA6DABCE62 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07FEFBBE1CA87B8EC4897ADC372A40FA /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		F04852B3A2503E0A6FF391F53A8EC50D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EE2370F242BC46A582D76E0ACBF212D /* Pods-PXButton.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18428AFE83CC7E024B11F37C0DDDBB16 /* Build configuration list for PBXNativeTarget "Pods-PXButton" */ = {
+		190A7D9718B49C561FECEB7ED65C5DFE /* Build configuration list for PBXNativeTarget "Pods-PXButton-SwiftExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F04852B3A2503E0A6FF391F53A8EC50D /* Debug */,
-				626091F3C33B50B1CB3FA0BED5F3BC66 /* Release */,
+				A2FB7541C1F2133027B1442A1B139274 /* Debug */,
+				08648EA6650921222F05C9A6B9BD5A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -626,35 +1122,71 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
-				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+				B1B5EB0850F98CB5AECDB015B690777F /* Debug */,
+				AADB9822762AD81BBAE83335B2AB1EB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		518D1BE226FEE05B0B04B3D3EB070BA6 /* Build configuration list for PBXNativeTarget "PXButton-PXButton" */ = {
+		3EFA9CABB2363B236DAE02BEAE01E844 /* Build configuration list for PBXNativeTarget "PXButton-iOS10.2-PXButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77F5DCB00777C7A4F8F5A12D63C3E4BB /* Debug */,
-				06F8BF698936A16C4CCAC3D05CCC398C /* Release */,
+				8000A7B65AA3E02189F6D548DAC2987D /* Debug */,
+				84D1ABBB521EC5D8B73D1AF9FD152973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C603ED84BB9B7CD198712E6F91A309D /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		4181B5DA8C5A0251594C1E9BC79360CC /* Build configuration list for PBXNativeTarget "PXButton-iOS9.2-PXButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				51D461ADE5E30EE91CF38B9646EF12F1 /* Debug */,
-				83C33E212F99636A931646FA6DABCE62 /* Release */,
+				9AAE33D70FBFC58251483FAA0D450AD0 /* Debug */,
+				24B3EFF0A959980056A42BB41BD18E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2C8F46585360D2BDFDEFCFE0F7CB5A4 /* Build configuration list for PBXNativeTarget "PXButton" */ = {
+		92E563DD8EE6B7C4AD6B226067DD5CF7 /* Build configuration list for PBXNativeTarget "Pods-PXButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DADEBCA90C4C2336A73B2ABB2809841 /* Debug */,
-				8371297201F08289900E86472A0538A8 /* Release */,
+				3500D09D9D91977D48BD1D1F52174758 /* Debug */,
+				47BB25870111ED62C16B45F7A3CE32E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5EFF4A84EE814E9838DCEC2720F7083 /* Build configuration list for PBXNativeTarget "PXButton-iOS10.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDBBE355FD98371D623BB6D367C1D29 /* Debug */,
+				3FE7E0530413AEDD330B8B89D80AAE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B344E0FBD0EE8FCFB9B8968E65E2865B /* Build configuration list for PBXNativeTarget "PXButton-iOS9.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882B572B58C8A33BBE3FEF2D837484F4 /* Debug */,
+				3CE617A5BBFB73450001903934CF248C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F950744286493D810A5EF20FF1CFB9C9 /* Build configuration list for PBXNativeTarget "Pods-PXButton-SwiftExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CA1CDAE760206B7CB5CD7C2F7434ED /* Debug */,
+				1DC5E50035ED8A392EF8EFDED762A95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE434E5F2D1EB7D6963BEDDC6E4C88B /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F6F27C507F905CF6AFAC168B5303A4 /* Debug */,
+				1ECA19323E20153FAF892FD38BF73988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
